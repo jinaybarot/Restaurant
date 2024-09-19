@@ -10,6 +10,7 @@ import Services from './components/Services';
 const App = () => {
   return (
     <>
+    <div className='bg-#FCFCFC'>
     <div> <Navbar /></div>
     <div> <Hero /></div>
     <div> <Features /></div>
@@ -17,6 +18,7 @@ const App = () => {
     <div> <Testimonials /></div>
     <div> <Services /></div>
     <div> <Footer /></div>
+    </div>
     </>
   );
 };

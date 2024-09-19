@@ -2,48 +2,43 @@ import React from "react";
 
 const Testimonials = () => {
     return(
-        <section className="bg-white">
-    <div className="relative flex">
-        <div className="min-h-screen lg:w-1/3"></div>
-        <div className="hidden min-h-screen bg-gray-100"></div>
-
-        <div
-            className="container flex flex-col justify-center w-full min-h-screen ml-24 px-6 py-10 mx-auto lg:absolute lg:inset-x-0">
-            <div className="ml-20 mt-10 lg:mt-20 lg:flex lg:items-center">
-                <img className="object-cover object-center w-full lg:w-[32rem] rounded-lg h-96" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""/>
-
-                <div className="mt-8 lg:px-10 lg:mt-0">
-                    <h1 className="text-2xl font-semibold text-gray-800  lg:w-72">
-                        Help us improve our productivity
-                    </h1>
-
-                    <p className="max-w-lg mt-6 text-gray-500 ">
-                        “ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
-                        tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
-                        aperiam dolorum, obcaecati corrupti aspernatur a. ”
-                    </p>
-
-                    <h3 className="mt-6 text-lg font-medium text-blue-500">Ronik Ederson</h3>
-                    <p className="text-gray-600">Marketing Manager at Stech</p>
-                </div>
-            </div>
-
-            <div className="flex items-center justify-between mt-12 lg:justify-start">
-                <button title="left arrow" className="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 hover:bg-gray-100">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-                    </svg>
-                </button>
-
-                <button title="right arrow" className="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 lg:mx-6 hover:bg-gray-100">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                    </svg>
-                </button>
-            </div>
-        </div>
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
+    <div className="relative lg:w-1/2">
+      <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" alt="" className="object-cover w-full lg:absolute h-80 lg:h-full" />
+      <svg className="absolute top-0 right-0 hidden h-full text-white lg:inline-block" viewBox="0 0 20 104" fill="currentColor">
+        <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104"></polygon>
+      </svg>
     </div>
-</section>
+    <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
+      <div>
+        <p className="inline-block mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full ">
+          Testimonials
+        </p>
+      </div>
+      <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
+        Your new ideal style
+      </h5>
+      <p className="mb-5 text-gray-800">
+        <span className="font-bold">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend, sed consequat odio sollicitudin.
+      </p>
+      <div className="flex items-center">
+        <button
+          type="submit"
+          className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded-2xl shadow-lg bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
+        >
+          Reviews
+        </button>
+        <a href="/" aria-label="" className="inline-flex items-center font-semibold transition-colors duration-200 text-purple-400 hover:text-purple-800">
+          Feedbacks
+          <svg className="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
+            <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
     );
 };
 
