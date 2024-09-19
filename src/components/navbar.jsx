@@ -7,11 +7,11 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-around items-center">
                 {/* Left Side: Logo */}
                 <div className="text-2xl font-bold">
-                    <a href="#home">Restaurant Logo</a>
+                    <a href="#home">Logo</a>
                 </div>
 
                 {/* Middle: Navigation Links */}
-                <div className="hidden md:flex space-x-4">
+                <div className="hidden md:flex space-x-8">
                     <a href="#home" className="text-red-500 hover:text-red-600">Home</a>
                     <a href="#menu" className="hover:text-yellow-400">Menu</a>
                     <a href="#services" className="hover:text-yellow-400">Services</a>
